@@ -1,1 +1,1 @@
-Productos{articulo='poleron', precio='15000', descripcion='poleron', codigo='ffdsf5454', talla='XL', marca='mormai', color='gris'}
+Productos{articulo='poleron', precio='15000', descripcion='kanguro', codigo='sdf54678', talla='xl', marca='mormaii', color='grisverde'}
