@@ -1,0 +1,1 @@
+Productos{articulo='poleron', precio='15000', descripcion='poleron', codigo='ffdsf5454', talla='XL', marca='mormai', color='gris'}
