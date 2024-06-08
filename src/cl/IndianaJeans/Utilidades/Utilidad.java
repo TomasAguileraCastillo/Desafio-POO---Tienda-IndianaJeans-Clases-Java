@@ -21,14 +21,23 @@ public class Utilidad {
 
     //Metodo
 
+    public void espera() {
+        int tiempoEspera = 15;
+        try {
+            for(int i = 0; i < tiempoEspera; i++) {
+                Thread.sleep(150);
+            }
+        }catch(InterruptedException ie) {
+            System.out.println("Error en timer");
+        }
+    }
+
     public  void limpiarPantalla() {
         try {
             new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
         } catch (Exception e) {
-            /*No hacer nada*/
+
         }
-
-
     }
 
     public void limpiaespera() {
@@ -36,16 +45,6 @@ public class Utilidad {
         limpiarPantalla ();
     }
 
-    public void espera() {
-        int timeWait = 10;
-        try {
-            for(int i = 0; i < timeWait; i++) {
-                Thread.sleep(150);
-            }
-        }catch(InterruptedException ie) {
-            System.out.println("Error al trabajar tiempo de espera");
-        }
-    }
 
 
 }
