@@ -86,12 +86,17 @@ requerimientos:
 
 Imagenes del Proyecto
 
+imagen1
 ![img.png](img.png)
 
+imagen2
 ![img_1.png](img_1.png)
 
+imagen3
 ![img_2.png](img_2.png)
 
+imagen4
 ![img_3.png](img_3.png)
 
+imagen5
 ![img_4.png](img_4.png)
